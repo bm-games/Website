@@ -8,7 +8,7 @@
   background: #C0C0C0!important;
   box-shadow: none;
   border-color: transparent !important;
-  background-color: #15d67f;
+  background-color: #878787;
 }
 
 #transmenu .navbar-brand {
@@ -96,7 +96,7 @@
   -moz-transform: rotate(-135deg);
   transform: rotate(-135deg);
   opacity: 0.9;
-  background-color: grey;
+  background-color: red;
 }
 
 hr {
@@ -112,5 +112,14 @@ hr {
 }
 
 h1 {
+  color: black;
+}
+
+.fa.fa-angle-double-down {
+  position: absolute;
+  bottom: 0;
+  font-size: 150px;
+  margin-left: -50px;
+  color: var(--red);
 }
 
