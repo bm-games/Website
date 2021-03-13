@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var stoptransparency = 50; // when to stop the transparent menu
+    var stoptransparency = 700; // when to stop the transparent menu
     var hidingmenu = 5000; // when to hide the menu
     var lastScrollTop = 0, delta = 5;
     $(this).scrollTop(0);
