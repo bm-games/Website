@@ -1,0 +1,29 @@
+@media (min-width:992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    font-weight: bold;
+    color: black;
+  }
+}
+
+@media (min-width:768px) {
+  .col-md-8 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+@media (min-width:768px) {
+  .col-md-4 {
+    -ms-flex: 0 0 80%;
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+}
+
+.bg-success {
+  background-color: #C0C0C0!important;
+}
+
