@@ -3,6 +3,11 @@
   background-color: #eef4f7;
 }
 
+.section-content {
+  color: #313437;
+  background-color: #C0C0C0!important;
+}
+
 .team-boxed p {
   color: #7d8285;
 }
