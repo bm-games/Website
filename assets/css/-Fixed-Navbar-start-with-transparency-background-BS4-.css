@@ -113,6 +113,7 @@ hr {
 
 h1 {
   color: black;
+  text-align: center;
 }
 
 .fa.fa-angle-double-down {
@@ -124,5 +125,15 @@ h1 {
 }
 
 h4 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.col-md-3 {
+  background: #e3e3e3;
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  text-align: center;
 }
 

@@ -27,3 +27,16 @@
   background-color: #C0C0C0!important;
 }
 
+.h3, h3 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .col-md-3 {
+    -ms-flex: 0 0 24%;
+    flex: 0 0 24%;
+    max-width: 24%;
+  }
+}
+
