@@ -40,3 +40,32 @@
   }
 }
 
+details > summary {
+  padding: 4px;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: white;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+
+details {
+  text-align: left;
+  background-color: #eef4f7;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+details > hr {
+  background: black;
+  width: 98%;
+  margin-top: 2px;
+  margin-bottom: 1px;
+  height: 1px;
+}
+
