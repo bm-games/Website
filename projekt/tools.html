@@ -10,7 +10,7 @@
     <meta name="description" content="Auf dieser Projektwebsite finden Sie alles zu unserem Multi-User-Dungeon Projekt sowie zu unserem Team!
 ">
     <meta name="twitter:image" content="">
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css?h=174d6398bfdeb970ca3e810740f8250e">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css?h=ab57de1f924e3d546a575a870eb28905">
     <link rel="stylesheet" href="../assets/fonts/fontawesome-all.min.css?h=2cbf12caab31562d03bae9544edcad5f">
     <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css?h=2cbf12caab31562d03bae9544edcad5f">
     <link rel="stylesheet" href="../assets/fonts/fontawesome5-overrides.min.css?h=2cbf12caab31562d03bae9544edcad5f">
@@ -26,64 +26,41 @@
                 <div class="container"><a class="navbar-brand text-success" href="../index.html">&nbsp;<img src="../assets/img/Logos/DHBW-Icon.webp?h=71e02fa97538db4ffd1b968c9cb4bca9" style="width: 240px;"></a><button data-toggle="collapse" class="navbar-toggler collapsed" data-target="#navcol-1"><span></span><span></span><span></span></button>
                     <div class="collapse navbar-collapse" id="navcol-1">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../projekt.html">Projekt</a></li>
-                            <li class="nav-item"><a class="nav-link" href="../files.html">Dateien</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projekt.html">Projekt</a></li>
+                            <li class="nav-item"><a class="nav-link" href="files.html">Dateien</a></li>
                             <li class="nav-item"><a class="nav-link" href="https://github.com/bm-games/BM-MUD/wiki"><i class="fa fa-github"></i>Wiki</a></li>
-                        </ul><button class="btn btn-primary" data-bss-hover-animate="swing" type="button" style="background: var(--red);">Play Now! - /tbd</button>
+                        </ul><a href="http://play.bm-games.net/"><button class="btn btn-primary" data-bss-hover-animate="swing" type="button" style="background: var(--red);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" class="bi bi-play">
+                                    <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"></path>
+                                </svg>Play Now</button></a>
                     </div>
                 </div>
             </nav>
         </header>
     </div>
-    <section class="section-content">
+    <section class="team-boxed" style="background: rgb(238, 244, 247);">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center" id="UnserTeam">Projekt</h2>
-                <p class="text-center" style="margin-bottom: -8px;">Hier erfahrt ihr mehr über unser Projekt und unsere Struktur</p>
-                <hr style="margin-bottom: 11px;">
+                <h2 class="text-center" id="UnserTeam-1">Unsere Tools</h2>
+                <p class="text-center">Hier erfahrt Ihr mehr über uns sowie unserer jeweiligen Rolle im Team<br></p>
+                <hr>
+            </div>
+            <div style="background: rgb(238,244,247);margin-top: 8px;border-style: none;border-color: var(--red);">
+                <p style="margin-right: 8px;margin-left: 8px;">Um einen Überblick über unsere genutzten Werkzeuge zu geben, wird diese Liste im Laufe des Projektes erweitert. Darunter zählen zum Beispiel die benutzte Programmiersprache, die IDE, das Testframework, UML-Werkzeugumgebung und Verwaltungsprogramme.<br></p>
+                <p style="margin-right: 8px;margin-left: 8px;">-Unsere genutzte <strong>IDE</strong>: IntelliJ Ultimate<br></p>
+                <p style="margin-right: 8px;margin-left: 8px;">-Codeverwaltung: <strong>GitHub </strong>-&gt; <a href="https://github.com/bm-games">siehe unser Team Repository</a><br></p>
+                <p style="margin-right: 8px;margin-left: 8px;">-Kommunikation und Zusammenarbeit: Microsoft Teams und IntelliJ Plugin wie CodeTogether<br></p>
+                <p style="margin-right: 8px;margin-left: 8px;">-für Diagramme/<strong>Designbeschreibung</strong>: <a href="https://lucid.app/">LucidApp bzw. LucidSpark</a><br></p>
+                <p style="margin-right: 8px;margin-left: 8px;">-Unsere hauptsächlich genutzte <strong>Programmiersprache</strong>: Kotlin<br></p>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h5>Entwicklung eines Multi-User Dungeon Server (MUD-Service)</h5>
-                    <p>MUD ist eine Bezeichnung für ein Online Rollenspiel, an welchem eine Vielzahl von spielenden Mitwirken können. In der Regel sind diese rein textbasiert. Bei Spiele mit grafischen Darstellungen ist die Bezeichnung MMORPG gebräuchlicher.</p>
-                    <p>Realisiert wird das ganze auf einem Server, auf dem eine Vielzahl an Nutzern sich (auch gleichzeitig) nach einem Login eine Persona (oftmals Avatar genannt) annehmen, sich im Spiel bewegen und mit einander und der kreierten Welt Spielwelt interagieren können. Diese Spiele sind langlaufend. Das heißt, dass Spieler sich nach Bedarf einloggen, beteiligen und wieder ausloggen können, auch ohne, dass dabei der Charakter bzw. der "Fortschritt" verloren geht.</p>
-                    <p>Ein MUD-Server muss in der Lage sein, ggf. mehrere MUD-Games zu hosten. Diese Games müssen eingerichtet (i.A. konfiguriert, nicht klassisch programmiert) werden können von einem sogenannten Dungeon Master, der danach dann den Spielverlauf übersehen und ggf. darin eingreifen kann. Zu konfigurieren sind solche Dinge als z.B. Personas (bzgl. u.a. Rasse, Klasse, Persönlichkeit, Equipment), Monster, Räumen, Objekten, und Aktionen (Bewegungen und sonstige). Wichtig ist auch die Realisierung diversen Formen der Kommunikation, zwischen teilnehmenden Spielern unter einander, sowie auch mit dem Dungeon Master.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <h4 style="text-align: center;">Über Uns</h4>
-                    <p>Wir sind ein Team aus 6 Studierenden der <strong>Dualen Hochschule Stuttgart Campus Horb</strong> und aktuell alle im 4.Semester. Unser Projektteamname ist hierbei <strong>Blackmamba-Games (BM-Games)</strong>.&nbsp;<br></p>
-                    <p>Im Rahmen der <strong>Software Engineering I Vorlesung</strong> haben wir den Auftrag ein umfangreiches Software-Projekt über&nbsp;die Phasen Anforderungsanalyse, Vorprojekt, Modellierung, Implementierung und Test bis zu einem lauffähigen Prototyp in einem arbeitsteiligen, werkzeuggestützten Prozess selbst-ständig umzusetzen.</p>
-                </div>
-                <div class="col-md-6">
-                    <h4 style="text-align: center;">Unsere Rolleneinteilung</h4>
-                    <p>Zur arbeitsteiligen Umsetzung des Projekts sind in der Projektgruppe verschiedene Rollen bzw. <strong>Verantwortliche für diverse Teilbereiche</strong> zu besetzen. Diese Rollen Bedeuten hierbei nicht, dass diese Person die ganze Arbeit in diesem Bereich macht, sondern, dass diese diesen Bereich strukturiert, koordiniert und organisiert.</p>
-                    <ul>
-                        <li><strong>Projektleiter: </strong>Daniel Scherer</li>
-                        <li><strong>Technischer Assistent: </strong>Marius Armbruster</li>
-                        <li><strong>Recherche:</strong>&nbsp;Jakub Cielecki</li>
-                        <li><strong>Modellierung: </strong>Kadner</li>
-                        <li><strong>Tests: </strong>Johannes Hüttinger</li>
-                        <li><strong>Implementierung: </strong>Leon Daskov</li>
-                        <li><strong>Qualitätssicherung und Dokumentation: </strong>Marius Armbruster</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <h4 style="text-align: center;">Die genutzten Tools</h4>
-                    <p>Um einen Überblick über unsere genutzten Werkzeuge zu geben, wird diese Liste im Laufe des Projektes erweitert. Darunter zählen zum Beispiel die benutzte Programmiersprache, die IDE, das Testframework, UML-Werkzeugumgebung und Verwaltungsprogramme.</p>
-                    <ul>
-                        <li><strong>IDE:</strong> IntelliJ</li>
-                        <li><strong>Codeverwaltung:</strong> Github</li>
-                        <li><strong>Kommunikation: </strong>MS Teams / WhatsApp</li>
-                        <li>....... /tbd</li>
-                    </ul>
-                </div>
+    </section>
+    <section class="team-boxed" style="background: rgb(238, 244, 247);">
+        <div class="container" style="margin-top: -16px;">
+            <div class="intro">
+                <h2 class="text-center" id="UnserTeam-1"><img src="../assets/img/intellij-idea_logo_300x300.png?h=0072c73a5a9ef4aa647b3097b394a73e"></h2>
+                <p class="text-center"></p>
+                <hr>
             </div>
         </div>
     </section>
